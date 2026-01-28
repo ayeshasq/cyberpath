@@ -57,64 +57,6 @@ A comprehensive, interactive web application that guides aspiring cybersecurity 
 - **Professional Organizations**: OWASP, (ISC)², ISACA, SANS
 - Networking opportunities and community resources
 
-## 🚀 Quick Start
-
-### Option 1: Clone and Run Locally
-
-```bash
-# Clone the repository
-git clone https://github.com/ayeshasq/cyberpath-explorer.git
-
-# Navigate to the project directory
-cd cyberpath-explorer
-
-# Open in your browser
-open index.html
-# or
-python3 -m http.server 8000
-# Then visit http://localhost:8000
-```
-
-### Option 2: Deploy to Vercel
-
-1. **Fork this repository** to your GitHub account
-
-2. **Deploy to Vercel** (recommended):
-   - Go to [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Click "Deploy" (no configuration needed!)
-   - Your site will be live at `https://your-project.vercel.app`
-
-### Option 3: Deploy to Netlify
-
-1. **Fork this repository** to your GitHub account
-
-2. **Deploy to Netlify**:
-   - Go to [netlify.com](https://netlify.com)
-   - Click "Add new site" → "Import an existing project"
-   - Connect to GitHub and select your repository
-   - Click "Deploy" (no configuration needed!)
-   - Your site will be live at `https://your-site.netlify.app`
-
-### Option 4: Deploy to GitHub Pages
-
-1. **Push to GitHub**:
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/yourusername/cyberpath-explorer.git
-git push -u origin main
-```
-
-2. **Enable GitHub Pages**:
-   - Go to your repository Settings
-   - Navigate to "Pages" section
-   - Under "Source", select "main" branch
-   - Click "Save"
-   - Your site will be live at `https://yourusername.github.io/cyberpath-explorer`
 
 ## 📁 Project Structure
 
@@ -126,42 +68,6 @@ cyberpath-explorer/
 ├── data.js            # Comprehensive cybersecurity data
 ├── README.md          # This file
 └── .gitignore        # Git ignore file
-```
-
-## 🎨 Customization
-
-### Changing Colors
-
-Edit the CSS variables in `styles.css`:
-
-```css
-:root {
-    --primary-color: #00d9ff;      /* Main accent color */
-    --secondary-color: #6c5ce7;    /* Secondary accent */
-    --dark-bg: #0a0e27;           /* Background */
-    --card-bg: #1a1f3a;           /* Card background */
-    /* ... other variables ... */
-}
-```
-
-### Adding New Content
-
-All content is stored in `data.js`. You can easily add:
-- New career roles
-- Additional certifications
-- More labs and platforms
-- Extra CTFs and conferences
-
-Example - Adding a new career role:
-
-```javascript
-{
-    title: "Cloud Security Architect",
-    level: "Senior",
-    salary: "$140k-$220k",
-    description: "Design and implement cloud security strategies...",
-    // ... other fields
-}
 ```
 
 ## 🌐 Browser Support
@@ -189,42 +95,6 @@ Contributions are welcome! Here's how you can help:
 4. **Push to the branch**: `git push origin feature/AmazingFeature`
 5. **Open a Pull Request**
 
-### Ideas for Contributions:
-- Add more career roles
-- Include additional certifications
-- Expand the labs section
-- Add video resources
-- Create a dark/light mode toggle
-- Add internationalization (i18n)
-- Include job board integrations
-
-## 📝 License
-
-This project is licensed under the MIT License - see below for details:
-
-```
-MIT License
-
-Copyright (c) 2025 Ayesha
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
 
 ## 🙏 Acknowledgments
 
@@ -269,7 +139,5 @@ Future enhancements planned:
 - ✅ **Free**: Open-source and completely free to use
 
 ---
-
-**Made with ❤️ for the cybersecurity community**
 
 ⭐ **Star this repo** if you find it helpful!
