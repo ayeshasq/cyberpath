@@ -1,25 +1,17 @@
 {
-2  "headers": [
-3    {
-4      "source": "/(.*)",
-5      "headers": [
-6        {
-7          "key": "Cache-Control",
-8          "value": "public, max-age=31536000, immutable"
-9        },
-10        {
-11          "key": "X-Content-Type-Options",
-12          "value": "nosniff"
-13        },
-14        {
-15          "key": "X-Frame-Options",
-16          "value": "DENY"
-17        },
-18        {
-19          "key": "X-XSS-Protection",
-20          "value": "1; mode=block"
-21        }
-22      ]
-23    }
-24  ]
-25}
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ]
+}
