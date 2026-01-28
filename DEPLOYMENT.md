@@ -442,4 +442,4 @@ After successful deployment:
 
 ---
 
-**Congratulations! Your CyberPath Explorer is now live! 🎉**
+
