@@ -2,7 +2,7 @@
 
 ## Complete Setup & Deployment in 5 Minutes
 
-### ⚡ Step 1: Initial Setup (Run these commands in Terminal)
+### Step 1: Initial Setup (Run these commands in Terminal)
 
 ```bash
 # Navigate to Desktop (or wherever you want the project)
@@ -19,7 +19,7 @@ ls -la
 
 ---
 
-### 🧪 Step 2: Test Locally (Optional but Recommended)
+### Step 2: Test Locally (Optional but Recommended)
 
 ```bash
 # Start a local web server (Python 3 is pre-installed on macOS)
@@ -31,7 +31,7 @@ python3 -m http.server 8000
 
 ---
 
-### 🐙 Step 3: Initialize Git Repository
+### Step 3: Initialize Git Repository
 
 ```bash
 # Make sure you're in the project directory
@@ -52,7 +52,7 @@ git branch -M main
 
 ---
 
-### 🌐 Step 4: Create GitHub Repository
+### Step 4: Create GitHub Repository
 
 **Before running the next commands, you need to:**
 
@@ -68,7 +68,7 @@ git branch -M main
 
 ---
 
-### 📤 Step 5: Push to GitHub
+### Step 5: Push to GitHub
 
 ```bash
 # Add your GitHub repository as remote
@@ -101,7 +101,7 @@ If git asks for a password and your regular password doesn't work:
 
 ---
 
-### ✅ Step 6: Verify on GitHub
+### Step 6: Verify on GitHub
 
 ```bash
 # Open your repository in browser
@@ -111,11 +111,11 @@ open https://github.com/yourusername/cyberpath-explorer
 # Or just visit it manually in your browser
 ```
 
-You should see all your files on GitHub! 🎉
+You should see all your files on GitHub! 
 
 ---
 
-### 🚀 Step 7: Deploy to Vercel (Easiest & Free!)
+### Step 7: Deploy to Vercel (Easiest & Free!)
 
 **Option A: Deploy via Vercel Website (Recommended for beginners)**
 
