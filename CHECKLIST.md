@@ -2,6 +2,7 @@
 
 Use this checklist to ensure you've completed every step successfully!
 
+
 ---
 
 ## 📋 Pre-Deployment Checklist
@@ -19,6 +20,7 @@ Use this checklist to ensure you've completed every step successfully!
   - [ ] `vercel.json` - Vercel config
   - [ ] `netlify.toml` - Netlify config
 
+
 ### ✅ Local Testing
 - [ ] Open `index.html` in browser (double-click or use server)
 - [ ] Test Overview section loads
@@ -32,6 +34,7 @@ Use this checklist to ensure you've completed every step successfully!
 - [ ] All links work (no 404s)
 - [ ] No JavaScript console errors (F12 → Console)
 - [ ] Responsive on mobile (test with browser dev tools)
+
 
 ### ✅ Content Verification
 - [ ] All career roles have complete information
@@ -103,35 +106,6 @@ Use this checklist to ensure you've completed every step successfully!
 - [ ] Production URL works
 ```
 
-### Option 2: 🌐 Netlify
-
-#### Via Netlify Website:
-- [ ] Sign up/login at netlify.com
-- [ ] Connected GitHub account
-- [ ] Imported `cyberpath-explorer` repository
-- [ ] Configured build settings (left empty for static)
-- [ ] Deployed successfully
-- [ ] Changed site name (optional)
-- [ ] Tested live site
-- [ ] Custom domain added (optional)
-
-#### Via Drag & Drop:
-- [ ] Logged into Netlify
-- [ ] Dragged project folder to drop zone
-- [ ] Site deployed instantly
-- [ ] Verified site works
-
-### Option 3: 📄 GitHub Pages
-
-- [ ] Went to repository Settings
-- [ ] Navigated to "Pages" section
-- [ ] Selected main branch as source
-- [ ] Selected / (root) as folder
-- [ ] Clicked Save
-- [ ] Waited 2-3 minutes
-- [ ] Site accessible at https://username.github.io/cyberpath-explorer
-- [ ] Tested all sections work
-- [ ] Custom domain configured (optional)
 
 ---
 
